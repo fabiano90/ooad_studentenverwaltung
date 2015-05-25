@@ -3,8 +3,8 @@ package entities;
 public class Modul {
 	private int modulnr;
 	private String titel;
-	
-	public Modul(){		
+
+	public Modul() {
 	}
 
 	public Modul(int modulnr, String titel) {
@@ -52,5 +52,5 @@ public class Modul {
 	public String toString() {
 		return "Modul [modulnr=" + modulnr + ", titel=" + titel + "]";
 	}
-	
+
 }

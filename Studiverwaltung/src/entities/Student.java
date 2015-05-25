@@ -3,9 +3,9 @@ package entities;
 public class Student {
 	private int matnr;
 	private String name;
-	
-	public Student(){
-		
+
+	public Student() {
+
 	}
 
 	public Student(int matnr, String name) {

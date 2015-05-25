@@ -4,7 +4,8 @@ import analytics.Analyse;
 
 public class Main {
 	public static void main(String[] args) {
-		Analyse a=null;//TODO insert code here;
+		Analyse a= new Analyse() {
+		};
 		System.out.println("---zeigePruefungenVon");
 		a.zeigePruefungenVon(103);
 		System.out.println("---zeigeBestandenePruefungenVon");

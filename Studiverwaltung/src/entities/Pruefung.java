@@ -89,8 +89,9 @@ public class Pruefung {
 
 	@Override
 	public String toString() {
-		return "Pruefung [modul=" + modul + ", student=" + student + ", note="
-				+ note + ", versuch=" + versuch + "]";
+		return modul.getTitel()+": "+note+" "+versuch+".Versuch";
+//		return "Pruefung [modul=" + modul + ", student=" + student + ", note="
+//				+ note + ", versuch=" + versuch + "]";
 	}
 	
 	
